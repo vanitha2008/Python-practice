@@ -1,0 +1,351 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyPW/XSnu7VAMn9NFmlF4dev",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/vanitha2008/Python-practice/blob/main/Smart_Study_Buddy\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "V6vIFVaT3whT",
+        "outputId": "f15d95cb-f1c6-4472-9db8-103ae811eec7"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Welcome to Smart Study Buddy! 📚\n",
+            "Enter your name: Vanitha \n",
+            "Which subject do you want to study? Python \n",
+            "How many hours can you study today? 2\n",
+            "\n",
+            "--- Your Study Plan ---\n",
+            "Student Name: Vanitha \n",
+            "Subject: Python \n",
+            "Study Time: 2 hours\n",
+            "All the best! Keep learning! 🎯\n"
+          ]
+        }
+      ],
+      "source": [
+        "\n",
+        "print(\"Welcome to Smart Study Buddy! 📚\")\n",
+        "\n",
+        "name = input(\"Enter your name: \")\n",
+        "subject = input(\"Which subject do you want to study? \")\n",
+        "hours = input(\"How many hours can you study today? \")\n",
+        "\n",
+        "print(\"\\n--- Your Study Plan ---\")\n",
+        "print(\"Student Name:\", name)\n",
+        "print(\"Subject:\", subject)\n",
+        "print(\"Study Time:\", hours, \"hours\")\n",
+        "print(\"All the best! Keep learning! 🎯\")"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "print(\"SMART STUDY BUDDY\")\n",
+        "\n",
+        "subject1 = input(\"Enter Subject 1: \")\n",
+        "subject2 = input(\"Enter Subject 2: \")\n",
+        "subject3 = input(\"Enter Subject 3: \")\n",
+        "\n",
+        "print(\"YOUR STUDY TIMETABLE\")\n",
+        "print(\"9 AM:\", subject1)\n",
+        "print(\"10 AM:\", subject2)\n",
+        "print(\"11 AM:\", subject3)\n",
+        "\n",
+        "print(\"Happy Learning!\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "KeSPYhri6CgQ",
+        "outputId": "4c235519-af90-4406-c0ea-a5797df11da9"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "SMART STUDY BUDDY\n",
+            "Enter Subject 1: Python \n",
+            "Enter Subject 2: Date structure \n",
+            "Enter Subject 3: ERP \n",
+            "YOUR STUDY TIMETABLE\n",
+            "9 AM: Python \n",
+            "10 AM: Date structure \n",
+            "11 AM: ERP \n",
+            "Happy Learning!\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "print(\"MY DAILY STUDY TASKS\")\n",
+        "\n",
+        "task1 = input(\"Enter Task 1: \")\n",
+        "task2 = input(\"Enter Task 2: \")\n",
+        "task3 = input(\"Enter Task 3: \")\n",
+        "\n",
+        "print(\"\\n--- TODAY'S TASK LIST ---\")\n",
+        "print(\"1.\", task1)\n",
+        "print(\"2.\", task2)\n",
+        "print(\"3.\", task3)\n",
+        "\n",
+        "print(\"\\nComplete all tasks today! 💪\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "nz1TKjsc6auz",
+        "outputId": "e8329392-c7af-4269-87c4-b73dc145926e"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "MY DAILY STUDY TASKS\n",
+            "Enter Task 1: Study python basics \n",
+            "Enter Task 2: Revise date structures \n",
+            "Enter Task 3: Read ERP Notes \n",
+            "\n",
+            "--- TODAY'S TASK LIST ---\n",
+            "1. Study python basics \n",
+            "2. Revise date structures \n",
+            "3. Read ERP Notes \n",
+            "\n",
+            "Complete all tasks today! 💪\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "print(\"SMART STUDY BUDDY - PROGRESS TRACKER\")\n",
+        "\n",
+        "total = int(input(\"How many tasks did you complete? \"))\n",
+        "\n",
+        "if total == 3:\n",
+        "    print(\"Excellent! All tasks completed!\")\n",
+        "elif total > 0:\n",
+        "    print(\"Good job! Keep going!\")\n",
+        "else:\n",
+        "    print(\"Start studying now!\")\n",
+        "\n",
+        "print(\"Believe in yourself!\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "7xX10o4N64GF",
+        "outputId": "4769b1e5-6683-46f8-8b8a-0111633341bc"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "SMART STUDY BUDDY - PROGRESS TRACKER\n",
+            "How many tasks did you complete? 2\n",
+            "Good job! Keep going!\n",
+            "Believe in yourself!\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "print(\"SMART STUDY BUDDY - STUDY TIPS\")\n",
+        "\n",
+        "subject = input(\"Enter your subject: \")\n",
+        "\n",
+        "if subject == \"Python\":\n",
+        "    print(\"Practice one program every day!\")\n",
+        "elif subject == \"ERP\":\n",
+        "    print(\"Read important definitions and revise!\")\n",
+        "elif subject == \"Data Structures\":\n",
+        "    print(\"Practice algorithms and draw diagrams!\")\n",
+        "else:\n",
+        "    print(\"Read your notes and practice daily!\")\n",
+        "\n",
+        "print(\"Take short breaks while studying!\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "wAEADN0P7uqL",
+        "outputId": "0cf65eca-c34f-43a2-91c4-0eb33a0b9627"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "SMART STUDY BUDDY - STUDY TIPS\n",
+            "Enter your subject: Python \n",
+            "Read your notes and practice daily!\n",
+            "Take short breaks while studying!\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "print(\"===== SMART STUDY BUDDY =====\")\n",
+        "print(\"1. Study Timetable\")\n",
+        "print(\"2. Daily Study Tasks\")\n",
+        "print(\"3. Study Tips\")\n",
+        "print(\"4. Exit\")\n",
+        "\n",
+        "choice = input(\"Choose an option (1-4): \")\n",
+        "\n",
+        "if choice == \"1\":\n",
+        "    print(\"Study Python at 9 AM\")\n",
+        "    print(\"Study ERP at 10 AM\")\n",
+        "elif choice == \"2\":\n",
+        "    print(\"Complete your daily assignments\")\n",
+        "elif choice == \"3\":\n",
+        "    print(\"Practice every day and take breaks\")\n",
+        "elif choice == \"4\":\n",
+        "    print(\"Thank you for using Smart Study Buddy!\")\n",
+        "else:\n",
+        "    print(\"Invalid choice. Try again!\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Ra-qstBV76Bp",
+        "outputId": "2b4bf761-5cf6-42b4-e517-3f19d5f238b2"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "===== SMART STUDY BUDDY =====\n",
+            "1. Study Timetable\n",
+            "2. Daily Study Tasks\n",
+            "3. Study Tips\n",
+            "4. Exit\n",
+            "Choose an option (1-4): 1\n",
+            "Study Python at 9 AM\n",
+            "Study ERP at 10 AM\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "print(\"===== SMART STUDY BUDDY =====\")\n",
+        "print(\"1. Create Study Timetable\")\n",
+        "print(\"2. View Study Tasks\")\n",
+        "print(\"3. Track Study Progress\")\n",
+        "print(\"4. Get Study Tips\")\n",
+        "print(\"5. Exit\")\n",
+        "\n",
+        "choice = input(\"Choose an option: \")\n",
+        "\n",
+        "if choice == \"1\":\n",
+        "    print(\"9 AM - Python\")\n",
+        "    print(\"10 AM - Data Structures\")\n",
+        "    print(\"11 AM - ERP\")\n",
+        "\n",
+        "elif choice == \"2\":\n",
+        "    print(\"1. Study Python basics\")\n",
+        "    print(\"2. Revise Data Structures\")\n",
+        "    print(\"3. Read ERP notes\")\n",
+        "\n",
+        "elif choice == \"3\":\n",
+        "    completed = int(input(\"Enter completed tasks: \"))\n",
+        "    print(\"Tasks completed:\", completed, \"out of 3\")\n",
+        "\n",
+        "elif choice == \"4\":\n",
+        "    print(\"Practice daily!\")\n",
+        "    print(\"Revise your notes!\")\n",
+        "    print(\"Take short breaks!\")\n",
+        "\n",
+        "elif choice == \"5\":\n",
+        "    print(\"Thank you for using Smart Study Buddy!\")\n",
+        "\n",
+        "else:\n",
+        "    print(\"Invalid choice!\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "8yAtkhrD8Din",
+        "outputId": "908d1993-3061-49ef-f6ef-5cb828605688"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "===== SMART STUDY BUDDY =====\n",
+            "1. Create Study Timetable\n",
+            "2. View Study Tasks\n",
+            "3. Track Study Progress\n",
+            "4. Get Study Tips\n",
+            "5. Exit\n",
+            "Choose an option: 5\n",
+            "Thank you for using Smart Study Buddy!\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
